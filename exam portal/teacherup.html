@@ -1,0 +1,195 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            background-image: url(1.jpg);
+            background-color: orange;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+
+        .avatar {
+            text-align: center;
+            width: 70px;
+            height: 70px;
+            border: 1px solid black;
+            border-radius: 50%;
+        }
+
+        .wrapper {
+            border: 0px solid #fff;
+            overflow: hidden;
+        }
+
+        .wrapper div {
+            min-height: 200px;
+            padding: 10px;
+            margin-top: 10%;
+        }
+
+        #one {
+            background-color: white;
+            float: left;
+            margin-right: 20px;
+            width: 300px;
+            min-height: 313px;
+            border: 1px solid #000;
+            opacity: 0.8;
+            filter: alpha(opacity=60);
+        }
+
+        #two {
+            background-color: white;
+            overflow: hidden;
+            margin: 10px;
+            margin-top: 10%;
+            min-height: 170px;
+            border: 1px solid #000;
+            text-align: center;
+            opacity: 0.8;
+            filter: alpha(opacity=60);
+        }
+
+        #two input[type="text"],
+        select {
+            margin: 20px auto;
+            border: 2px solid black;
+            padding: 10px 10px;
+            outline: none;
+            color: black;
+            border-radius: 17px;
+            transition: .25s;
+        }
+
+        .button {
+            background-color: black;
+            border-radius: 12px;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        h1 {
+            color: black;
+            text-align: center;
+        }
+
+        [hidden] {
+            display: none !important;
+        }
+
+
+        @media screen and (max-width: 400px) {
+            #one {
+                float: none;
+                margin-right: 0;
+                width: auto;
+                border: 0;
+                border-bottom: 2px solid #000;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="">
+
+            <!-- <img  src="C:\Users\nikhi\OneDrive\Desktop\examc@ll\pics\anits.jpg" class="img-responsive" width:"990 px" height:"190px" > -->
+            <img style="-webkit-user-select: none;margin:auto;cursor: default;" src="C:\Users\nikhi\OneDrive\Desktop\examc@ll\pics\anits.jpg" width="100%" height=auto>
+        </div>
+    </div>
+    <form action="student2.html">
+        <div class="container">
+            <div class="wrapper">
+                <div id="one">
+
+                    <img src="C:\Users\nikhi\OneDrive\Desktop\examc@ll\pics\log.png" alt="Avatar" class="avatar">
+
+                    <label for="username"></label>
+                    <input type="text" class="form-control" ariq-describedby="username" placeholder="Name">
+
+
+                    <label for="Branch">Branch:</label> <select>
+                        <option value="CSE">CSE </option>
+                        <option value="IT">IT </option>
+                        <option value="EEE">EEE</option>
+                        <option value="CIVIL">CIVIL</option>
+                        <option value="ECE">ECE</option>
+                        <option value="chemical">Chemical</option>
+                    </select>
+                    &nbsp;&nbsp;
+                    &nbsp;&nbsp;
+                    &nbsp;&nbsp;
+                    &nbsp;&nbsp;
+                    <br>
+
+
+                    <label for="class">Year:</label> <select>
+                        <option value="1">1 </option>
+                        <option value="2">2 </option>
+                        <option value="3">3 </option>
+                        <option value="4">4 </option>
+                    </select>
+                    &nbsp;&nbsp;
+                    &nbsp;&nbsp;
+                    &nbsp;&nbsp;
+                    &nbsp;&nbsp;
+                    <br>
+                    <label for="class">Sem:</label> <select>
+                        <option value="1">1 </option>
+                        <option value="2">2 </option>
+                    </select>
+                    &nbsp;&nbsp;
+                    &nbsp;&nbsp;
+                    <br>
+
+                    <label for="subject">Subject:</label><select>
+                        <option value="1">DBMS</option>
+                        <option value="2">CN</option>
+                        <option value="3">CA</option>
+                        <option value="4">WT</option>
+                        <option value="5">CG</option>
+                        <option value="6">CD</option>
+                    </select>
+                    &nbsp;
+                    &nbsp;
+                    <br>
+                    <input type="button" class="button" value="Logout">
+
+                </div>
+                <div id="two">
+
+                    <h1>Teacher Upload</h1>
+                    <hr>
+
+                    <label class="btn btn-primary">
+                        Questionpaper <input type="file" hidden>
+                    </label>
+                    <label class="btn btn-dark">
+                        key <input type="file" hidden>
+                    </label>
+                    <label class="btn btn-success">
+                        scheme <input type="file" hidden>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </form>
+</body></html>
+

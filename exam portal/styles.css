@@ -1,0 +1,127 @@
+body{
+	margin:0;
+	padding: 0;
+	background-color: orange;
+	font-family: sans-serif;
+}
+.h1{
+	font-size: 80px;
+	font-family: sans-serif;
+	color: solid black;
+	
+}
+.cons{
+	margin-top: 10px;
+	margin-left: 10px;
+	/*top: 50%;
+	left: 50%;*/
+	/*float:left;*/
+	font-family: sans-serif;
+	box-sizing: border-box;
+	background-color: #cc33ff;
+	/*transform: translate(-50%,-50%);*/
+	border-radius: 4px;
+	box-shadow: 0px 5px 15px rgba(0,0,0,.5);
+	display: flex;
+	height: 90px;
+	width: 400px;
+	padding: 10px 40px;
+}
+.cons .imgbox{
+	width:100%;
+	height:auto;
+	/*flex:.0.0.0.100px;*/position: center;
+}
+.cons .content{
+	margin-left: 0px;
+}
+.cons .content h2{
+	padding-left: 0px;
+	margin:0px;
+
+	color: black;
+}
+.cons .content h2{
+	margin:0px;
+	font size:15px;
+	padding-left: 0px;
+}
+.row{
+	/*background-color: white;*/
+	/*margin-left: 50px;*/
+	/*margin-top: 110px;*/
+	padding: 0px 0px;
+	
+	/*margin-left: 550px;*/ float: right;
+	height: auto;
+	width: 69%	;
+	padding: 80px 80px;
+}
+.mal{
+	background-color: red; 
+}
+.cons1{
+	margin-top: 35px;
+	margin-left: 450px;
+	/*top: 50%;
+	left: 50%;*/
+	/*float:left;*/
+	font-family: sans-serif;
+	box-sizing: border-box;
+	background-color: #cc33ff ;
+	text-align: center;
+	/*transform: translate(-50%,-50%);*/
+	border-radius: 4px;
+	box-shadow: 0px 5px 15px rgba(0,0,0,.5);
+	display: flex;
+	height: auto;
+	width: 480px;
+	padding: 10px 40px;
+	float:top;
+	position:absolute;
+}
+.l{
+	position:center;
+	margin-top: -200px;
+	margin-left:450px;
+	background-color: red;
+}
+.ll{
+position:center;
+	margin-top: -144px;
+	margin-left:600px;
+	margin-right:290px;
+	background-color: black;
+	width: 10px;
+	height:10px;
+}
+}
+.lll{
+	position:center; 
+
+margin-top: -100px;
+	float :right;
+margin-left:700px;
+	background-color: pink;
+}
+
+/*}
+.posture1{
+	margin-top: -210px;
+	margin-left: 650px;
+	background-color: black;
+	height: auto;
+
+	width: 100%;
+}
+.posture2{
+	margin-top: -210px;
+	margin-left: 850px;
+	background-color: black;
+	height: auto;
+
+	width: 100%;
+}
+
+
+
